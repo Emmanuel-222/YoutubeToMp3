@@ -1,4 +1,5 @@
-import { SpeedInsights } from "@vercel/speed-insights/react"
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 import { useState } from "react";
 import axios from "axios";
 import "./App.css";
@@ -115,6 +116,7 @@ const App = () => {
           )
         )}
       </div>
+      <Analytics />
       <SpeedInsights />
     </div>
   );
