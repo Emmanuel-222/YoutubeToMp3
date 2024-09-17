@@ -1,0 +1,16 @@
+.App{
+  background: #020024;
+  background: linear-gradient(23deg, rgba(2,0,36,1) 0%, #090979 35%, #00d4ff 100%);
+  color: #00d4ff;
+}
+
+.btn{
+  padding: 6px 12px;
+  background-color: #e5ff00;
+  color: #000;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
